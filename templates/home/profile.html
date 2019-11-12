@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({% static 'images/home2.png' %});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-sm-12 col-md-offset-3 col-xs-12 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h1>Welcome</h1>
+				   					<h2 class="breadcrumbs"><span><a href="index.html">{{user.username}}</a></span> | <span>{{user.username}}</span></h2>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+{% endblock %}

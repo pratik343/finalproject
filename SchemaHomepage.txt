@@ -1,0 +1,10 @@
+MODEL/DB FIELDS
+
+#HOMEPAGE
+
+User_id: STR
+Password: STR
+
+SUPERUSER#####
+id:'PRATIK'
+password:1234
